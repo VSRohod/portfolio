@@ -1,0 +1,19 @@
+:root{
+    --bannerImg : url(../images/banner/bannerIntroEdit.png);
+}
+
+#intro{
+    height: 100vh;
+    background-image: var(--bannerImg) ;
+}
+
+.introIcons{
+    width: 90%;
+    padding: 2rem 0;
+}
+
+.introIconsImgs{
+    width: 8rem;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
