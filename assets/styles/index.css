@@ -1,19 +1,25 @@
-:root{
-    --bannerImg : url(../images/banner/bannerIntroEdit.png);
-}
+/* intro */
 
 #intro{
     height: 100vh;
-    background-image: var(--bannerImg) ;
+    background-color: var(--blue2);
 }
 
-.introIcons{
-    width: 90%;
-    padding: 2rem 0;
+#introTitle h1, #introTitle h3{
+    color: var(--white);
 }
 
-.introIconsImgs{
-    width: 8rem;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+#introImage{
+    height: 100%;
+}
+
+#introImage img{
+    height: 80%;
+}
+
+/* aboutMe */
+
+#aboutMeImgPhoto{
+    border-radius: 100%;
+    border: 0.5rem solid var(--purple);
 }

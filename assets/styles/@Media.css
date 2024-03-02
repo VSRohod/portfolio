@@ -1,4 +1,17 @@
-/* Intro */
-.introIconsImgs{
-    width: 5rem;
+aside{
+    width: 100%;
+}
+
+section{
+    flex-direction: column;
+}
+
+/* INTRO */
+#intro{
+    justify-content: center;
+    align-items: center;
+}
+
+#introImage{
+    height: 50vh;
 }
