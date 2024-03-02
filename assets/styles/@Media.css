@@ -1,8 +1,21 @@
+/* root */
+:root{
+    --h1 : 32pt;
+    --h2 : 26pt;
+    --h3 : 22pt;
+    --h4 : 20pt;
+    --h5 : 20pt;
+    --p1 : 14pt;
+    --p2 : 12pt;
+}
+
+
 aside{
     width: 100%;
 }
 
 section{
+    height: auto;
     flex-direction: column;
 }
 
@@ -14,4 +27,10 @@ section{
 
 #introImage{
     height: 50vh;
+}
+
+/* ABOUT ME */
+
+#aboutMeImg{
+    height: 15rem;
 }
