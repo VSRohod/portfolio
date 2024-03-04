@@ -20,6 +20,50 @@
 /* aboutMe */
 
 #aboutMeImgPhoto{
-    border-radius: 100%;
+    height: 30rem;
     border: 0.5rem solid var(--purple);
+}
+
+/* experience */
+#experience{
+    height: auto;
+}
+
+#experienceTopicsGroup{
+    display: flex;
+}
+
+.experienceTopic{
+    width: 85%;
+    height: 20rem;
+    display: flex;
+    background-color: var(--purple);
+    border-radius: 2rem;
+}
+
+.experiencePhoto{
+    height: 100%;
+}
+
+.experienceTitle{
+    background-color: var(--pink);
+    margin: 1rem 0rem;
+}
+
+
+/* projects */
+.projectsItem{
+    width: 10rem;
+    border: 0.2rem solid var(--black);
+}
+
+/* contact */
+#contact{
+    background-color: var(--black);
+}
+
+.socialMediaItem, .toolItem{
+    display: flex;
+    gap: 1rem;
+    width: 5rem;
 }

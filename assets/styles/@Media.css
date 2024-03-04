@@ -28,7 +28,16 @@ section{
 }
 
 /* ABOUT ME */
+#aboutMeImg, #aboutMeImgPhoto{
+    height: 20rem;
+}
 
-#aboutMeImg{
-    height: 15rem;
+/* experience */
+.experienceTopic{
+    height: auto;
+    flex-direction: column;
+}
+
+.experiencePhoto{
+    width: 70%;
 }

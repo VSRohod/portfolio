@@ -11,6 +11,8 @@
     font-weight: normal;
 }
 
+
+
 /* root */
 :root{
     --black : #252525;
@@ -39,15 +41,12 @@
     font-size: var(--p1);
 }
 
+
+
 /* page elements */
-body{
-    transition: 1s;
-    box-sizing: border-box;
-}
 
 section{
     width: 100%;
-    height: 30rem;
     display: flex;
     margin: 0 0 1rem 0;
 }
@@ -60,8 +59,17 @@ aside{
 }
 
 p{
-    margin: 0.2rem;
+    margin: 0.5rem;
 }
+
+footer{
+    width: 100%;
+    padding: 1rem 0rem;
+    background-color: var(--blue);
+    display: flex;
+}
+
+
 
 /* themes */
 .darkTheme{
@@ -73,10 +81,13 @@ p{
     color: var(--black);
 }
 
+
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     color: var(--blue);
     text-align: center;
+    font-family: Poppins Regular;
 }
 
 h1{
@@ -100,11 +111,19 @@ h5{
     font-size: var(--h5);
 }
 
+.whiteText{
+    color: var(--white);
+}
+
+
+
 /* links */
 a{
     text-decoration: none;
     color: var(--purple);  
 }
+
+
 
 /* class */
 /* flexbox class */
@@ -126,6 +145,9 @@ a{
     justify-content: center;
     align-items: space-between;
 }
+
+
+
 /* image class */
 .imagesX{
     width: 100%;
@@ -144,11 +166,28 @@ a{
     filter: grayScale(100%);
 }
 
+.photosRounded{
+    border-radius: 100%;
+}
+
+
+
 /* icons class */
 .navIcon{
     width: 2rem;
     margin: 2rem;
     animation-duration: 2s!important;
     animation-iteration-count: infinite!important;
+}
+
+
+
+/* spacing */
+.padding1{
+    padding: 1rem;
+}
+
+.margin1{
+    margin: 1rem;
 }
 
