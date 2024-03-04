@@ -1,14 +1,12 @@
 /* root */
 :root{
-    --h1 : 32pt;
-    --h2 : 26pt;
-    --h3 : 22pt;
+    --h1 : 26pt;
+    --h2 : 22pt;
+    --h3 : 20pt;
     --h4 : 20pt;
-    --h5 : 20pt;
     --p1 : 14pt;
     --p2 : 12pt;
 }
-
 
 aside{
     width: 100%;

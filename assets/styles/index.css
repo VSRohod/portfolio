@@ -2,7 +2,7 @@
 
 #intro{
     height: 100vh;
-    background-color: var(--blue2);
+    background-color: var(--blue);
 }
 
 #introTitle h1, #introTitle h3{
