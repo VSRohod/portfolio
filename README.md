@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+## Instalando projeto
+-Abrindo Terminal
+-"npm create vite@latest"
+-Inserir nome do projeto
+-Selecionar a versão do projeto "React"
+-Escolher a linguagem "Javascript + SWC" (SUPER FAST WEB COMPILER)
+-"npm install"
+-"npm run dev"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Obs: 
+-node_modules = Módulos que serão gerenciados apenas via NPM
+-public = arquivos estáticos (fontes, imagens etc)
+-src = códigos do projeto
 
-## Available Scripts
+## Arrumando base
+-Delete tudo de src
+-Crie o arquivo "main.jsx" (jsx tem a capacidade de usar js com html)
+-Insira o seguinte código para o inicio da renderização.
+"
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-In the project directory, you can run:
+ReactDOM.createRoot(document.querySelector("#root")).render(
+    <div>
+    
+    </div>
+)
 
-### `npm start`
+-Obs: Poderá ser utilizado <React.StrictMode> durante o desenvolvimento da aplicação para retornos mais incisivos de código, ou <> </> para utilizar depois
+"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Crie o arquivo "App.jsx"
+-Insira o seguinte código para o inicio do componente.
+"
+export default function App(){
+    return(
+        <h1>Olá mundo</h1>
+    )
+}
+"
+- O ideal é estarmos colocando "export default App" para que esteja disponivel em todo codigo!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Detalhes de componentes
+- Caso em um mesmo arquivo estejam dois componentes
+(ex function TesteA, functionTesteB)
+-A exportação destes deverá vir dessa maneira:
+"export function TesteA()"
+-E a importação deles em outro arquivo deverá ser de:
+"import { TesteA , TesteB}"
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## React no GitHub Pages
+-No terminal adicione
+"npm i gh-pages --save-dev"
+-No "package.json" dicione esse código em "scripts : {}":
+"
+"predeploy" : "npm run build",
+"deploy" : "gh-pages -d dist"
+"
+-E adicione esse código acima de "name"
+"
+"homepage": 'link do githubpages'
+"
+-Logo após seguindo para "vite.config.js" e adicione:
+"
+base : "/nomeRepositorio"
+"
