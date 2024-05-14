@@ -1,7 +1,7 @@
-import notePageScreenShot from './../../public/images/projects/notePage/dontpageScreenShot.png';
-import IconsHTML from './../../public/images/tools/coding/HTML.svg';
-import IconsCSS from './../../public/images/tools/coding/CSS.svg';
-import IconsJS from './../../public/images/tools/coding/JS.svg';
+import notePageScreenShot from './../Assets/images/projects/notePage/dontpageScreenShot.png';
+import IconsHTML from './../Assets/images/tools/coding/HTML.svg';
+import IconsCSS from './../Assets/images/tools/coding/CSS.svg';
+import IconsJS from './../Assets/images/tools/coding/JS.svg';
 
 function Modal(){
     return(

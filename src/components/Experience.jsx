@@ -1,4 +1,4 @@
-import competidor2 from "./../../public/images/experience/competidor2.png";
+import competidor2 from "./../Assets/images/experience/competidor2.png";
 
 function ExperienceTopics(){
     return (

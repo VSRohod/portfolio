@@ -1,4 +1,4 @@
-import SocialMediaGithub from "./../../public/images/iconsSocialMedia/github.svg";
+import SocialMediaGithub from "./../Assets/images/iconsSocialMedia/github.svg";
 
 function SocialMedia(){
     return(

@@ -1,4 +1,4 @@
-import IconsHTML from "./../../public/images/tools/coding/HTML.svg";
+import IconsHTML from "./../Assets/images/tools/coding/HTML.svg";
 
 function Tools(){
     return (

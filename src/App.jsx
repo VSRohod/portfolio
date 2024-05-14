@@ -6,10 +6,10 @@ import SocialMedia from "./components/SocialMedia";
 import Tools from "./components/tools";
 
 // images
-import Frost from "./../public/images/me/frost.png";
-import NotePageLogo from "../public/images/projects/notePage/notePageLogo.png";
-import AboutMeFoto from "../public/images/me/me.jpeg";
-import SetaBaixo from "../public/images/icons/arrow-down-solid.svg";
+import Frost from "./Assets/images/me/frost.png";
+import NotePageLogo from "./Assets/images/projects/notePage/notePageLogo.png";
+import AboutMeFoto from "./Assets/images/me/me.jpeg";
+import SetaBaixo from "./Assets/images/icons/arrow-down-solid.svg";
 
 
 function App() {
