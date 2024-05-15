@@ -64,6 +64,5 @@
 
 .socialMediaItem, .toolItem{
     display: flex;
-    gap: 1rem;
-    width: 5rem;
+    gap: 0.2rem;
 }

@@ -11,7 +11,6 @@ import NotePageLogo from "./Assets/images/projects/notePage/notePageLogo.png";
 import AboutMeFoto from "./Assets/images/me/me.jpeg";
 import SetaBaixo from "./Assets/images/icons/arrow-down-solid.svg";
 
-
 function App() {
   return (
     <div id="content">
@@ -65,7 +64,7 @@ function App() {
                 <h4>FERRAMENTAS QUE DOMINO</h4>
 
                 <div id="toolsGroup" className="middleCenter colummAlign">
-                    <Tools />
+                    <Tools nome="HTML" cor="orange" />
                 </div>
             </section>
 
@@ -73,8 +72,10 @@ function App() {
                 <h4 className="whiteText">CONTATO</h4>
                 <p className="whiteText margin1">Entre em contato! Aqui estão minhas redes sociais!</p>
                 
-                <div id="socialMediaGroup" className="padding1">
-                    <SocialMedia />
+                <div id="socialMediaGroup" className="padding1 d-flex flex-wrap">
+                    <SocialMedia link="https://github.com/VSRohod" username="@VSRohod" classIcon="bi-github" />
+                    <SocialMedia link="https://www.instagram.com/victor_rohod/" username="@VSRohod" classIcon="bi-instagram" />
+                    <SocialMedia link="mailto:victorsantosrohod@gmail.com" username="victorsantosrohod@gmail.com" classIcon="bi-envelope" />
                 </div>
             
             </section>

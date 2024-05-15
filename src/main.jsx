@@ -1,9 +1,13 @@
+// Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'animate.css'
+import 'bootstrap/js/dist/modal';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+// Animate
+import 'animate.css';
+// Personal
 import './Assets/styles/all.css';
 import './Assets/styles/index.css';
 import './Assets/styles/@Media.css';
-import 'bootstrap/js/dist/modal'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 

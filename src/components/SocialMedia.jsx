@@ -1,11 +1,10 @@
-import SocialMediaGithub from "./../Assets/images/iconsSocialMedia/github.svg";
-
-function SocialMedia(){
+function SocialMedia(props){
+    let socialIcon = "bi "+props.classIcon
     return(
-        <a href="https://github.com/VSRohod">
+        <a href={props.link}>
             <div className="socialMediaItem middleCenter colummAlign">
-                <img src={SocialMediaGithub} alt=""/>
-                <p className="whiteText">@VSRohod</p>
+                <i className={socialIcon} style={{ fontSize: 40, color: "white"}}></i>
+                <p className="whiteText">{props.username}</p>
             </div>
         </a>
     )

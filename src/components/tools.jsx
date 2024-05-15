@@ -1,10 +1,8 @@
-import IconsHTML from "./../Assets/images/tools/coding/HTML.svg";
-
-function Tools(){
+function Tools(props){
+    let css = "color : "+props.cor+";"
     return (
         <div className="toolItem middleCenter colummAlign">
-            <img src={IconsHTML} alt=""/>
-            <p>HTML</p>
+            <p style={css}>{props.nome}</p>
         </div>
     )
 }
