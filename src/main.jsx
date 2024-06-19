@@ -8,6 +8,7 @@ import 'animate.css';
 import './Assets/styles/all.css';
 import './Assets/styles/index.css';
 import './Assets/styles/@Media.css';
+import './Assets/styles/cores.css'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 

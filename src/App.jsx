@@ -63,8 +63,11 @@ function App() {
             <section id="tools" className="middleCenter colummAlign">
                 <h4>FERRAMENTAS QUE DOMINO</h4>
 
-                <div id="toolsGroup" className="middleCenter colummAlign">
+                <div id="toolsGroup" className="middleCenter flex">
                     <Tools nome="HTML" cor="orange" />
+                    <Tools nome="CSS" cor="blue2" />
+                    <Tools nome="PHP" cor="purple" />
+                    <Tools nome="JAVASCRIPT" cor="yellow" />
                 </div>
             </section>
 

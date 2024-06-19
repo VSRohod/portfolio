@@ -125,6 +125,10 @@ a{
 
 /* class */
 /* flexbox class */
+.flex{
+    display: flex;
+}
+
 .middleCenter{
     justify-content: center;
     align-items: center;

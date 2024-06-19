@@ -1,8 +1,7 @@
 function Tools(props){
-    let css = "color : "+props.cor+";"
     return (
         <div className="toolItem middleCenter colummAlign">
-            <p style={css}>{props.nome}</p>
+            <p className={props.cor}>{props.nome}</p>
         </div>
     )
 }
