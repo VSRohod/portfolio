@@ -29,7 +29,7 @@
     }
 
     /* ABOUT ME */
-    #aboutMeImg, #aboutMeImgPhoto{
+    .aboutMeImg, .aboutMeImgPhoto{
         height: 20rem;
     }
 
