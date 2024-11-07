@@ -16,7 +16,7 @@ function Modal(props){
               <a href={props.projectGitLink} rel="noreferrer" target="_blank">
                 <button type="button" className="btn btn-primary">Visite o repositório do projeto</button>
               </a>
-              <a href="https://vsrohod.github.io/NotePage/" rel="noreferrer" target="_blank">
+              <a href={props.projectLink} rel="noreferrer" target="_blank">
                 <button type="button" className="btn btn-success">Visite o site!</button>
               </a>
             </div>

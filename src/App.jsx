@@ -63,11 +63,13 @@ function App() {
             
             </section>
             
-            <section id="projects" className="middleCenter colummAlign">
+            <section id="projects" className="middleCenter colummAlign gap-3">
                 <h4>PROJETOS DESTAQUE</h4>
-
-                <Projects projectName="#NotePage" projectLogo="https://i.imgur.com/YzbLJd0.png" />
-
+                <div id="projectsGroup" className="d-flex gap-3 flex-wrap middleCenter">
+                    <Projects projectName="#NotePage" projectLogo="https://i.imgur.com/YzbLJd0.png" />
+                    <Projects projectName="#PawShop" projectLogo="https://i.imgur.com/xB3beAb.png" />
+                    <Projects projectName="#ShowCacau" projectLogo="https://i.imgur.com/7n9m6aZ.png" />
+                </div>
             </section>
 
             <section id="tools" className="middleCenter colummAlign">
@@ -85,7 +87,7 @@ function App() {
                 <h4 className="whiteText">CONTATO</h4>
                 <p className="whiteText margin1">Entre em contato! Aqui estão minhas redes sociais!</p>
                 
-                <div id="socialMediaGroup" className="padding1 d-flex flex-wrap">
+                <div id="socialMediaGroup" className="padding1 middleCenter d-flex flex-wrap">
                     <SocialMedia link="https://github.com/VSRohod" username="@VSRohod" classIcon="bi-github" />
                     <SocialMedia link="https://www.instagram.com/victor_rohod/" username="@VSRohod" classIcon="bi-instagram" />
                     <SocialMedia link="mailto:victorsantosrohod@gmail.com" username="victorsantosrohod@gmail.com" classIcon="bi-envelope" />
@@ -96,6 +98,8 @@ function App() {
 
     <Footer />
     <Modal projectName="NotePage" projectImage="https://i.imgur.com/34Ejlxj.png" projectGitLink="https://github.com/VSRohod/NotePage" projectLink="https://vsrohod.github.io/NotePage/" projectDesc="É um site de bloco de notas simples para que possa escrever e salvar suas anotações e ainda possibilita o download do bloco de notas para o usuário!"/>
+    <Modal projectName="PawShop" projectImage="https://i.imgur.com/HjrXcSW.png" projectGitLink="https://github.com/VSRohod/PawShopv2" projectLink="https://vsrohod.github.io/PawShopv2/" projectDesc="Um site de compra de artigos para pets e adoção!"/>
+    <Modal projectName="ShowCacau" projectImage="https://i.imgur.com/26SVe6r.png" projectGitLink="https://github.com/VSRohod/showCacau" projectLink="https://vsrohod.github.io/showCacau/" projectDesc="Um site sobre uma confeitaria especializada em bolos!"/>
     
     </div>
   );
