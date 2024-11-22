@@ -67,7 +67,14 @@ footer{
     display: flex;
 }
 
-
+.shelf{
+   width: 95%;
+   height: 24px;
+   border-radius: 0px 0px 10px 10px ;
+   background-image: url(../images/textures/wood.jpeg);
+   background-size: cover;
+   border: 1px solid var(--black);
+}
 
 /* themes */
 .darkTheme{
@@ -146,6 +153,10 @@ a{
 .spaceBetweenY{
     justify-content: center;
     align-items: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 

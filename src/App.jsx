@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Modal from "./components/Modal";
 import SocialMedia from "./components/SocialMedia";
 import Tools from "./components/tools";
+import Shelf from "./components/Shelf";
 
 // images
 import Frost from "./Assets/images/me/frost.png";
@@ -69,17 +70,42 @@ function App() {
                     <Projects projectName="#NotePage" projectLogo="https://i.imgur.com/YzbLJd0.png" />
                     <Projects projectName="#PawShop" projectLogo="https://i.imgur.com/xB3beAb.png" />
                     <Projects projectName="#ShowCacau" projectLogo="https://i.imgur.com/7n9m6aZ.png" />
+                    <Shelf />
                 </div>
             </section>
 
             <section id="tools" className="middleCenter colummAlign">
                 <h4>FERRAMENTAS QUE DOMINO</h4>
 
-                <div id="toolsGroup" className="middleCenter flex">
-                    <Tools nome="HTML" cor="orange" />
-                    <Tools nome="CSS" cor="blue2" />
-                    <Tools nome="PHP" cor="purple" />
-                    <Tools nome="JAVASCRIPT" cor="yellow" />
+                <div id="toolsGroup" className="middleCenter colummAlign flex">
+                    <h2>FRONT END</h2>
+                    <div className="flex wrap">
+                        <Tools nome="HTML" cor="orange" />
+                        <Tools nome="CSS" cor="blue2" />
+                        <Tools nome="JAVASCRIPT" cor="yellow" />
+                        <Tools nome="PYTHON" cor="blue2" />
+                        <Tools nome="DJANGO" cor="blue2" />
+                        <Tools nome="REACT" cor="blue2" />
+                    </div>
+                    
+                    <h2>BACK</h2>
+                    <div className="flex wrap">
+                        <Tools nome="PHP" cor="purple" />
+                        <Tools nome="MYSQL" cor="blue2" />
+                        <Tools nome="BANCO DE DADOS" cor="blue2" />
+                    </div>
+                    
+                    <h2>VERSIONAMENTO</h2>
+                    <div className="flex wrap">
+                        <Tools nome="GIT" cor="blue2" />
+                        <Tools nome="GITHUB" cor="blue2" />
+                    </div>
+                                
+                    <h3>UX DESIGN</h3>
+                    <div className="flex wrap">
+                        <Tools nome="FIGMA" cor="blue2" />
+                        <Tools nome="ADOBE XD" cor="blue2" />
+                    </div>
                 </div>
             </section>
 
