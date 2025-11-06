@@ -60,7 +60,7 @@ function App() {
                 <section id="experienceTopicsGroup" className="colummAlign middleCenter">
                     <Experience experiencePhoto="https://i.imgur.com/k8ZxfPy.png" experienceTitle="COMPETIDOR DA SELETIVA WORLDSKILLS" experienceText="Participei da olímpiada do conhecimento na área #17 - Web Design, após treinamentos diários tive a oportunidade de representar o estado DF na seletiva nacional WorldSkills, ficando em 4° lugar em âmbito nacional!" />
                     <Experience experiencePhoto="https://i.imgur.com/LwjXC57.jpeg" experienceTitle="INSTRUTOR DE FRONT-END E 'WEB DESIGN'" experienceText="Fui instrutor desde 25/07/2022 onde pude estar presente em sala de aula compartilhando e facilitando o acesso aos conhecimentos que no decorrer da minha carreira acabei adquirindo. Atendendo desde turmas do NEM (Novo ensino médio) e até turmas do exército brasileiro!" />
-                    <Experience experiencePhoto="https://i.imgur.com/Z9ftJER.jpeg" experienceTitle="INSTRUTOR DE AWS FOUNDATIONS" experienceText="Ministrei um treinamento oficial da AWS / SENAI para a iniciativa 'Woman in cloud', desde utilizando conceitos teóricos sobre a plataforma , a conceitos práticos dentro dos laboratórios na Aws academy, link para a " />
+                    <Experience experiencePhoto="https://i.imgur.com/Z9ftJER.jpeg" experienceTitle="INSTRUTOR DE AWS FOUNDATIONS" experienceText="Ministrei um treinamento oficial da AWS / SENAI para a iniciativa 'Woman in cloud', desde utilizando conceitos teóricos sobre a plataforma , a conceitos práticos dentro dos laboratórios na Aws academy, link para a postagem : https://www.sistemafibra.org.br/senai/institucional/sala-de-imprensa/noticias/1781-senai-df-e-aws-certificam-duas-turmas-femininas-em-computacao-em-nuvem" />
                 </section>
             
             </section>
@@ -89,7 +89,7 @@ function App() {
                         <Tools nome="REACT" cor="blue2" />
                     </div>
                     
-                    <h2>BACK</h2>
+                    <h2>BACK END</h2>
                     <div className="flex wrap">
                         <Tools nome="PHP" cor="purple" />
                         <Tools nome="MYSQL" cor="blue2" />
