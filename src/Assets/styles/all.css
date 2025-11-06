@@ -183,6 +183,10 @@ a{
     border-radius: 100%;
 }
 
+.photosBorderRounded{
+    border-radius: 10px;
+}
+
 
 
 /* icons class */
